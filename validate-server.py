@@ -9,13 +9,14 @@ def verify_date_server():
         print("error while getting url: {}".format(url))
         return False
     print("server is up")
+    if verify_date_correct(date=None):
+        return False
     return True
 
 def verify_date_correct(date):
-    pass
+    return True
 
 
 
 if __name__ == '__main__':
     verify_date_server()
-    verify_date_correct(date=None)
