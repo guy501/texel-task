@@ -2,7 +2,8 @@
 
 #requirement:
 
-urllib3 < 1.25
+pip3 install urllib3==1.24
+pip3 install requests-html==0.10.0
 
 #build the image:
 
